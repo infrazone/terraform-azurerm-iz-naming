@@ -9,7 +9,7 @@ For every resource in `terraform_azurerm` just remove the `azurerm` part of the 
 example for `azurerm_resource_group` you can use :
 
 ```tf
-module "naming" {
+module "iz-naming" {
   source  = "Azure/naming/azurerm"
   suffix = [ "test" ]
 }
